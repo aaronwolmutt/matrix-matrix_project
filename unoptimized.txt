@@ -1,0 +1,47 @@
+Matrix-matrix multiplication tests:
+size: 10
+    Eigen: 0.000487
+    std::vector: 9.3e-06
+
+
+size: 50
+    Eigen: 0.0026401
+    std::vector: 9.94e-05
+
+
+size: 100
+    Eigen: 0.0104961
+    std::vector: 0.0003914
+
+
+size: 500
+    Eigen: 0.123358
+    std::vector: 0.0029172
+
+
+size: 1000
+    Eigen: 0.347268
+    std::vector: 0.0123042
+
+
+Vector dot product tests:
+size: 100
+    Eigen: 7.09e-05
+    std::vector: 1.9e-06
+
+
+size: 1000
+    Eigen: 0.0002934
+    std::vector: 9.8e-06
+
+
+size: 100000
+    Eigen: 0.0265162
+    std::vector: 0.0008313
+
+
+size: 1000000
+    Eigen: 0.258334
+    std::vector: 0.008593
+
+
